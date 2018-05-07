@@ -1,8 +1,7 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://scripts/Firefly.gd" type="Script" id=1]
-[ext_resource path="res://assets/firefly.png" type="Texture" id=2]
-[ext_resource path="res://assets/firefly-light.png" type="Texture" id=3]
+[ext_resource path="res://assets/firefly.png" type="Texture" id=1]
+[ext_resource path="res://assets/firefly-light.png" type="Texture" id=2]
 
 [sub_resource type="ParticlesMaterial" id=1]
 
@@ -106,14 +105,11 @@ tracks/0/keys = {
 
 [node name="Firefly" type="Node2D"]
 
-script = ExtResource( 1 )
-color = "#5eaa63"
-
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
 modulate = Color( 0.444634, 0.636719, 0.212807, 1 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 2 )
+texture = ExtResource( 1 )
 _sections_unfolded = [ "Region", "Transform", "Visibility" ]
 __meta__ = {
 "_edit_group_": true
@@ -126,7 +122,7 @@ rotation = 0.628319
 scale = Vector2( 2, 2 )
 enabled = true
 editor_only = false
-texture = ExtResource( 3 )
+texture = ExtResource( 2 )
 offset = Vector2( 0, 0 )
 texture_scale = 0.11
 color = Color( 0.375033, 0.703125, 0.127841, 1 )
