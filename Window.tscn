@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://scripts/Window.gd" type="Script" id=1]
 [ext_resource path="res://assets/window.png" type="Texture" id=2]
-[ext_resource path="res://assets/tree_grow_2.png" type="Texture" id=3]
 
 [node name="Window" type="Control" index="0"]
 
@@ -41,7 +40,7 @@ patch_margin_right = 2
 patch_margin_bottom = 2
 _sections_unfolded = [ "Axis Stretch", "Patch Margin" ]
 
-[node name="Panel" type="Label" parent="." index="1"]
+[node name="Title" type="Label" parent="." index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -62,12 +61,5 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "Mouse" ]
-
-[node name="Sprite" type="Sprite" parent="." index="2"]
-
-position = Vector2( 407.92, 166.734 )
-scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 3 )
-_sections_unfolded = [ "Transform" ]
 
 

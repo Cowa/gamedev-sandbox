@@ -37,7 +37,7 @@ tracks/1/keys = {
 "values": [ Color( 0.258658, 0.443376, 0.761719, 1 ), Color( 0.763672, 0.412658, 0.601876, 1 ), Color( 0.266492, 0.288909, 0.527344, 1 ), Color( 0.894531, 0.645785, 0.803195, 1 ) ]
 }
 
-[node name="World" type="Node"]
+[node name="World" type="Node" index="0"]
 
 [node name="Sky" type="Sprite" parent="." index="0"]
 
